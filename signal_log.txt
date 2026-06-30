@@ -1,0 +1,10 @@
+2026-06-30 22:14:35,229 | INFO | StrategyOrchestrator initialized | Capital: ₹500,000 | Win Rate: 55%
+2026-06-30 22:14:35,240 | INFO | Correlation XAUUSD↔BTCUSDT: 0.333
+2026-06-30 22:14:35,242 | INFO | Correlation XAUUSD↔ETHUSDT: 0.377
+2026-06-30 22:14:35,244 | INFO | Correlation BTCUSDT↔ETHUSDT: 0.866
+2026-06-30 22:14:35,248 | INFO | XAUUSD Regime: trending_down
+2026-06-30 22:14:35,250 | INFO | XAUUSD: Signal too weak (STRONG_SELL, 28%) — skipping
+2026-06-30 22:14:35,252 | INFO | BTCUSDT Regime: trending_down
+2026-06-30 22:14:35,253 | INFO | BTCUSDT: Signal too weak (STRONG_SELL, 25%) — skipping
+2026-06-30 22:14:35,256 | INFO | ETHUSDT Regime: trending_down
+2026-06-30 22:14:35,257 | INFO | ETHUSDT: Signal too weak (STRONG_SELL, 25%) — skipping

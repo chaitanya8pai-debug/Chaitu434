@@ -1,0 +1,15 @@
+[30 Jun 22:14:32] SYSTEM: Starting Chaitu Live Trading Bot
+[30 Jun 22:14:32] SYSTEM: Assets: 22 | Capital: Rs500,000
+
+==========================================================
+  CHAITU LIVE MULTI-ASSET TRADING BOT
+  Assets:    22 (Crypto + Commodities)
+  Crypto:    REAL-TIME via Binance WebSocket
+  Others:    5-second refresh
+  Signals:   Every 5 min (when Auto ON)
+  SL/TP:     Always monitored (Auto ON or OFF)
+  Open:      http://localhost:5000
+==========================================================
+
+ * Serving Flask app 'live_trading_app'
+ * Debug mode: off
