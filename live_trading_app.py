@@ -1214,8 +1214,17 @@ def poll_prices():
 # ── FLASK ROUTES ─────────────────────────────────────────────
 @app.route("/")
 def dashboard():
-    p=os.path.expanduser("~/Desktop/trading-bot/live_dashboard.html")
-    with open(p) as f: return f.read()
+    # Works both locally and on cloud
+    import os
+    paths=[
+        "live_dashboard.html",
+        os.path.join(os.path.dirname(__file__),"live_dashboard.html"),
+        os.path.expanduser("~/Desktop/trading-bot/live_dashboard.html"),
+    ]
+    for p in paths:
+        if os.path.exists(p):
+            with open(p) as f: return f.read()
+    return "Dashboard not found",404
 
 @app.route("/api/live_prices")
 def get_live_prices():

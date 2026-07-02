@@ -4925,3 +4925,299 @@ $SI=F: possibly delisted; no price data found  (period=5d)
 
 1 Failed download:
 ['SI=F']: possibly delisted; no price data found  (period=5d)
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+$PL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: possibly delisted; no price data found  (period=5d)
+$BZ=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BZ=F']: possibly delisted; no price data found  (period=5d)
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+$PL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: possibly delisted; no price data found  (period=5d)
+$BZ=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BZ=F']: possibly delisted; no price data found  (period=5d)
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+$PL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: possibly delisted; no price data found  (period=5d)
+$BZ=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BZ=F']: possibly delisted; no price data found  (period=5d)
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+$PL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: possibly delisted; no price data found  (period=5d)
+$BZ=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BZ=F']: possibly delisted; no price data found  (period=5d)
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+$PL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: possibly delisted; no price data found  (period=5d)
+$BZ=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BZ=F']: possibly delisted; no price data found  (period=5d)
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+$PL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: possibly delisted; no price data found  (period=5d)
+$BZ=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BZ=F']: possibly delisted; no price data found  (period=5d)
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+$PL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: possibly delisted; no price data found  (period=5d)
+$BZ=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BZ=F']: possibly delisted; no price data found  (period=5d)
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+$PL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: possibly delisted; no price data found  (period=5d)
+$BZ=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BZ=F']: possibly delisted; no price data found  (period=5d)
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+$PL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: possibly delisted; no price data found  (period=5d)
+$BZ=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BZ=F']: possibly delisted; no price data found  (period=5d)
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+$PL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: possibly delisted; no price data found  (period=5d)
+$BZ=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BZ=F']: possibly delisted; no price data found  (period=5d)
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+$PL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: possibly delisted; no price data found  (period=5d)
