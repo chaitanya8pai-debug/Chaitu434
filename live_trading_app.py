@@ -1183,99 +1183,106 @@ def websocket_watchdog():
 # ── BINANCE WEBSOCKET ────────────────────────────────────────
 def fetch_binance_prices():
     """
-    Fetch crypto prices via CoinGecko API
-    Free, no API key, works on all cloud servers
+    Fetch real-time crypto prices via CoinCap API
+    Free, no API key, real-time, works on all cloud servers
+    Updates every 10 seconds
     """
-    COINGECKO_IDS = {
+    COINCAP_IDS = {
         "Bitcoin":   "bitcoin",
         "Ethereum":  "ethereum",
         "Solana":    "solana",
-        "BNB":       "binancecoin",
-        "XRP":       "ripple",
+        "BNB":       "binance-coin",
+        "XRP":       "xrp",
         "Cardano":   "cardano",
-        "Avalanche": "avalanche-2",
+        "Avalanche": "avalanche",
         "Dogecoin":  "dogecoin",
         "Chainlink": "chainlink",
         "Litecoin":  "litecoin",
         "Cosmos":    "cosmos",
-        "Near":      "near",
+        "Near":      "near-protocol",
         "Aave":      "aave",
         "Optimism":  "optimism",
         "Dogwifhat": "dogwifhat",
     }
     try:
-        ids = ",".join(COINGECKO_IDS.values())
-        url = "https://api.coingecko.com/api/v3/simple/price"
-        params = {
-            "ids":              ids,
-            "vs_currencies":    "usd",
-            "include_24hr_change": "true",
-            "include_24hr_vol":    "true",
-            "include_last_updated_at": "true",
-        }
+        ids = ",".join(COINCAP_IDS.values())
+        url = f"https://api.coincap.io/v2/assets"
+        params = {"ids": ids, "limit": 20}
         headers = {
             "User-Agent": "Mozilla/5.0",
             "Accept":     "application/json",
         }
-        r = req.get(url, params=params, headers=headers, timeout=15)
+        r = req.get(url, params=params, headers=headers, timeout=10)
         if r.status_code != 200:
-            bot_log(f"CoinGecko error: {r.status_code}","ERROR")
-            return
+            raise Exception(f"CoinCap error: {r.status_code}")
 
-        data = r.json()
-        id_to_name = {v:k for k,v in COINGECKO_IDS.items()}
+        data = r.json().get("data", [])
+        id_to_name = {v:k for k,v in COINCAP_IDS.items()}
+        updated = 0
 
-        for cg_id, prices in data.items():
-            name = id_to_name.get(cg_id)
+        for asset in data:
+            cid  = asset.get("id","")
+            name = id_to_name.get(cid)
             if not name: continue
-            price  = float(prices.get("usd", 0))
-            change = float(prices.get("usd_24h_change", 0))
+            price  = float(asset.get("priceUsd") or 0)
+            change = float(asset.get("changePercent24Hr") or 0)
+            high   = price * 1.02
+            low    = price * 0.98
             with price_lock:
                 live_prices[name] = {
                     "price":   round(price, 4),
                     "change":  round(change, 2),
-                    "high":    round(price * 1.02, 4),
-                    "low":     round(price * 0.98, 4),
+                    "high":    round(high, 4),
+                    "low":     round(low, 4),
                     "cat":     "Crypto",
                     "live":    True,
                     "updated": datetime.now().strftime("%H:%M:%S"),
                 }
-        bot_log(f"CoinGecko prices updated: {len(data)} crypto assets","INFO")
+            updated += 1
+
+        if updated > 0:
+            bot_log(f"CoinCap: {updated} crypto prices updated","INFO")
+            return
 
     except Exception as e:
-        bot_log(f"CoinGecko failed: {e}","ERROR")
-        # Fallback to yfinance
-        try:
-            YMAP = {
-                "Bitcoin":"BTC-USD","Ethereum":"ETH-USD",
-                "Solana":"SOL-USD","BNB":"BNB-USD",
-                "XRP":"XRP-USD","Cardano":"ADA-USD",
-                "Dogecoin":"DOGE-USD","Chainlink":"LINK-USD",
-                "Litecoin":"LTC-USD","Avalanche":"AVAX-USD",
-            }
-            import yfinance as yf
-            for name,ticker in YMAP.items():
-                try:
-                    df=yf.download(ticker,period="2d",
-                                  auto_adjust=True,progress=False)
-                    if isinstance(df.columns,pd.MultiIndex):
-                        df.columns=df.columns.get_level_values(0)
-                    df.columns=[cc.lower() for cc in df.columns]
-                    if len(df)<2: continue
-                    cur=float(df["close"].iloc[-1])
-                    prev=float(df["close"].iloc[-2])
-                    chg=round((cur-prev)/prev*100,2)
-                    with price_lock:
-                        live_prices[name]={
-                            "price":round(cur,4),"change":chg,
-                            "high":round(float(df["high"].iloc[-1]),4),
-                            "low":round(float(df["low"].iloc[-1]),4),
-                            "cat":"Crypto","live":False,
-                            "updated":datetime.now().strftime("%H:%M:%S"),
-                        }
-                except: pass
-            bot_log("Crypto via yfinance fallback","INFO")
-        except: pass
+        bot_log(f"CoinCap failed: {e} — trying CoinGecko","ERROR")
+
+    # Fallback: CoinGecko
+    try:
+        GECKO_IDS = {
+            "Bitcoin":"bitcoin","Ethereum":"ethereum",
+            "Solana":"solana","BNB":"binancecoin",
+            "XRP":"ripple","Cardano":"cardano",
+            "Avalanche":"avalanche-2","Dogecoin":"dogecoin",
+            "Chainlink":"chainlink","Litecoin":"litecoin",
+            "Cosmos":"cosmos","Near":"near","Aave":"aave",
+            "Optimism":"optimism","Dogwifhat":"dogwifhat",
+        }
+        ids = ",".join(GECKO_IDS.values())
+        r = req.get(
+            "https://api.coingecko.com/api/v3/simple/price",
+            params={"ids":ids,"vs_currencies":"usd",
+                   "include_24hr_change":"true"},
+            headers={"User-Agent":"Mozilla/5.0"},
+            timeout=15
+        )
+        if r.status_code == 200:
+            id_to_name = {v:k for k,v in GECKO_IDS.items()}
+            for cg_id,prices in r.json().items():
+                name = id_to_name.get(cg_id)
+                if not name: continue
+                price  = float(prices.get("usd",0))
+                change = float(prices.get("usd_24h_change",0))
+                with price_lock:
+                    live_prices[name] = {
+                        "price":round(price,4),"change":round(change,2),
+                        "high":round(price*1.02,4),"low":round(price*0.98,4),
+                        "cat":"Crypto","live":True,
+                        "updated":datetime.now().strftime("%H:%M:%S"),
+                    }
+            bot_log("CoinGecko fallback prices updated","INFO")
+    except Exception as e:
+        bot_log(f"All crypto price sources failed: {e}","ERROR")
 
 
 def start_binance_websocket():
