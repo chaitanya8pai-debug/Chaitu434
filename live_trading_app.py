@@ -1211,13 +1211,14 @@ def fetch_binance_prices():
         bot_log(f"Binance REST error: {e}","ERROR")
 
 def start_binance_websocket():
-    """REST polling fallback for cloud — runs every 10 seconds"""
-    bot_log("Starting Binance REST price polling...","SYSTEM")
+    """REST polling for cloud — runs every 15 seconds"""
+    bot_log("Starting crypto price polling (REST)...","SYSTEM")
     while True:
         try:
             fetch_binance_prices()
-        except: pass
-        time.sleep(10)
+        except Exception as e:
+            bot_log(f"Price poll error: {e}","ERROR")
+        time.sleep(15)
 
 # ── PRICE POLLER ─────────────────────────────────────────────
 def poll_prices():
