@@ -8,3 +8,23 @@
 2026-06-30 22:14:35,253 | INFO | BTCUSDT: Signal too weak (STRONG_SELL, 25%) — skipping
 2026-06-30 22:14:35,256 | INFO | ETHUSDT Regime: trending_down
 2026-06-30 22:14:35,257 | INFO | ETHUSDT: Signal too weak (STRONG_SELL, 25%) — skipping
+2026-06-30 23:14:37,135 | INFO | StrategyOrchestrator initialized | Capital: ₹500,000 | Win Rate: 55%
+2026-06-30 23:14:37,152 | INFO | Correlation XAUUSD↔BTCUSDT: 0.337
+2026-06-30 23:14:37,154 | INFO | Correlation XAUUSD↔ETHUSDT: 0.381
+2026-06-30 23:14:37,156 | INFO | Correlation BTCUSDT↔ETHUSDT: 0.865
+2026-06-30 23:14:37,160 | INFO | XAUUSD Regime: trending_down
+2026-06-30 23:14:37,161 | INFO | XAUUSD: Signal too weak (STRONG_SELL, 28%) — skipping
+2026-06-30 23:14:37,164 | INFO | BTCUSDT Regime: trending_down
+2026-06-30 23:14:37,165 | INFO | BTCUSDT: Signal too weak (STRONG_SELL, 25%) — skipping
+2026-06-30 23:14:37,167 | INFO | ETHUSDT Regime: trending_down
+2026-06-30 23:14:37,168 | INFO | ETHUSDT: Signal too weak (STRONG_SELL, 25%) — skipping
+2026-07-02 20:41:30,015 | INFO | StrategyOrchestrator initialized | Capital: ₹500,000 | Win Rate: 55%
+2026-07-02 20:41:30,031 | INFO | Correlation XAUUSD↔BTCUSDT: 0.404
+2026-07-02 20:41:30,033 | INFO | Correlation XAUUSD↔ETHUSDT: 0.469
+2026-07-02 20:41:30,035 | INFO | Correlation BTCUSDT↔ETHUSDT: 0.889
+2026-07-02 20:41:30,039 | INFO | XAUUSD Regime: trending_down
+2026-07-02 20:41:30,041 | INFO | XAUUSD: Signal too weak (SELL, 39%) — skipping
+2026-07-02 20:41:30,043 | INFO | BTCUSDT Regime: trending_down
+2026-07-02 20:41:30,044 | INFO | BTCUSDT: Signal too weak (SELL, 38%) — skipping
+2026-07-02 20:41:30,047 | INFO | ETHUSDT Regime: ranging
+2026-07-02 20:41:30,048 | INFO | ETHUSDT: Signal too weak (SELL, 38%) — skipping

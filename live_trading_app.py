@@ -1,6 +1,14 @@
 
 from flask import Flask, jsonify, request
 import yfinance as yf
+
+# Fix yfinance for cloud servers
+try:
+    import yfinance.data as _yfd
+    _yfd.YfData.user_agent_headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    }
+except: pass
 import pandas as pd
 import json, os, uuid, warnings, logging
 import threading, time, math
@@ -75,10 +83,22 @@ def send_tg(msg):
     except: pass
 
 def fetch_ohlcv(ticker,period="3mo"):
-    df=yf.download(ticker,period=period,auto_adjust=True,progress=False)
-    if isinstance(df.columns,pd.MultiIndex): df.columns=df.columns.get_level_values(0)
-    df.columns=[c.lower() for c in df.columns]
-    return df[["open","high","low","close","volume"]].dropna()
+    import time
+    for attempt in range(3):
+        try:
+            df=yf.download(ticker,period=period,
+                          auto_adjust=True,progress=False,
+                          timeout=30)
+            if isinstance(df.columns,pd.MultiIndex):
+                df.columns=df.columns.get_level_values(0)
+            df.columns=[c.lower() for c in df.columns]
+            df=df[["open","high","low","close","volume"]].dropna()
+            if len(df)>0: return df
+        except Exception as e:
+            if attempt<2:
+                time.sleep(2*attempt+1)
+                continue
+    return pd.DataFrame(columns=["open","high","low","close","volume"])
 
 def is_market_open(cat,name):
     IST=timezone(timedelta(hours=5,minutes=30))
