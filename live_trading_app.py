@@ -1249,13 +1249,17 @@ def dashboard():
 def get_live_prices():
     with price_lock: return jsonify(dict(live_prices))
 
-@app.route("/api/scan",methods=["POST"])
+@app.route("/api/scan",methods=["POST","OPTIONS"])
 def manual_scan():
+    if request.method=="OPTIONS":
+        return jsonify({"status":"ok"}), 200
     threading.Thread(target=scan_all,daemon=True).start()
     return jsonify({"started":True,"message":"Scanning 22 markets..."})
 
-@app.route("/api/auto/toggle",methods=["POST"])
+@app.route("/api/auto/toggle",methods=["POST","OPTIONS"])
 def toggle():
+    if request.method=="OPTIONS":
+        return jsonify({"status":"ok"}), 200
     auto_state["enabled"]=not auto_state["enabled"]
     s="ENABLED" if auto_state["enabled"] else "DISABLED"
     bot_log(f"Auto trading {s}","SYSTEM")
@@ -1301,8 +1305,10 @@ def positions():
 def trades():
     return jsonify(list(reversed(load_trades().get("closed",[])))[:50])
 
-@app.route("/api/trade/close/<tid>",methods=["POST"])
+@app.route("/api/trade/close/<tid>",methods=["POST","OPTIONS"])
 def close_trade(tid):
+    if request.method=="OPTIONS":
+        return jsonify({"status":"ok"}), 200
     b=request.json; data=load_trades()
     trade=next((t for t in data["open"] if t["id"]==tid),None)
     if not trade: return jsonify({"success":False})
@@ -1319,8 +1325,10 @@ def close_trade(tid):
     save_trades(data)
     return jsonify({"success":True,"trade":closed})
 
-@app.route("/api/trade/manual",methods=["POST"])
+@app.route("/api/trade/manual",methods=["POST","OPTIONS"])
 def manual_trade():
+    if request.method=="OPTIONS":
+        return jsonify({"status":"ok"}), 200
     sig=request.json; data=load_trades()
     open_positions=[(t.get("name",t.get("asset","")),t.get("direction",""))
                     for t in data.get("open",[])]
