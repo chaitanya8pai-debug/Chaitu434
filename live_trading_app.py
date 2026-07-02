@@ -22,6 +22,14 @@ logging.getLogger("werkzeug").setLevel(logging.ERROR)
 load_dotenv(os.path.expanduser("~/Desktop/trading-bot/.env"))
 
 app     = Flask(__name__, static_folder=".", template_folder=".")
+
+# Allow cross-origin requests (needed for cloud)
+@app.after_request
+def add_cors(response):
+    response.headers["Access-Control-Allow-Origin"]  = "*"
+    response.headers["Access-Control-Allow-Headers"] = "Content-Type"
+    response.headers["Access-Control-Allow-Methods"] = "GET,POST,OPTIONS"
+    return response
 CAPITAL = 500000
 TRADES_FILE = os.path.expanduser("~/Desktop/trading-bot/paper_trades.json")
 TOKEN   = os.getenv("TELEGRAM_BOT_TOKEN","")
@@ -1163,32 +1171,43 @@ def websocket_watchdog():
         except: pass
 
 # ── BINANCE WEBSOCKET ────────────────────────────────────────
-def start_binance_websocket():
-    symbols =[info["ws"] for info in ASSETS.values() if info.get("ws")]
-    name_map={info["ws"].upper().replace("USDT","")+"USDT":name
-              for name,info in ASSETS.items() if info.get("ws")}
-    stream="/".join([f"{s}@ticker" for s in symbols])
-    url=f"wss://stream.binance.com:9443/stream?streams={stream}"
-    def on_message(ws,message):
-        try:
-            data=json.loads(message); ticker=data.get("data",{})
-            symbol=ticker.get("s",""); name=name_map.get(symbol)
-            if not name: return
+def fetch_binance_prices():
+    """Fetch crypto prices via REST API — works on cloud"""
+    CRYPTO_ASSETS={k:v for k,v in ASSETS.items() if v.get("live",False)}
+    symbols=[v["ws"].upper()+"usdt" if not v["ws"].endswith("usdt")
+             else v["ws"] for v in CRYPTO_ASSETS.values() if v.get("ws")]
+    name_map={v["ws"].upper():k for k,v in CRYPTO_ASSETS.items() if v.get("ws")}
+    try:
+        # Fetch all tickers in one request
+        syms_str=str([s.upper() for s in symbols]).replace("'",'"')
+        r=req.get(f"https://api.binance.com/api/v3/ticker/24hr",
+                  params={"symbols":syms_str},timeout=10)
+        if r.status_code!=200: return
+        data=r.json()
+        for ticker in data:
+            sym=ticker.get("symbol","").replace("USDT","")
+            name=name_map.get(sym) or name_map.get(sym+"USDT")
+            if not name: continue
             with price_lock:
                 live_prices[name]={
-                    "price":round(float(ticker.get("c",0)),4),
-                    "change":round(float(ticker.get("P",0)),2),
-                    "high":round(float(ticker.get("h",0)),4),
-                    "low":round(float(ticker.get("l",0)),4),
+                    "price":round(float(ticker.get("lastPrice",0)),4),
+                    "change":round(float(ticker.get("priceChangePercent",0)),2),
+                    "high":round(float(ticker.get("highPrice",0)),4),
+                    "low":round(float(ticker.get("lowPrice",0)),4),
                     "cat":"Crypto","live":True,
                     "updated":datetime.now().strftime("%H:%M:%S"),
                 }
+    except Exception as e:
+        bot_log(f"Binance REST error: {e}","ERROR")
+
+def start_binance_websocket():
+    """REST polling fallback for cloud — runs every 10 seconds"""
+    bot_log("Starting Binance REST price polling...","SYSTEM")
+    while True:
+        try:
+            fetch_binance_prices()
         except: pass
-    def on_close(ws,*args): time.sleep(5); start_binance_websocket()
-    def on_open(ws): bot_log("Binance WebSocket connected!","SYSTEM")
-    ws=websocket.WebSocketApp(url,on_message=on_message,
-                              on_close=on_close,on_open=on_open)
-    ws.run_forever()
+        time.sleep(10)
 
 # ── PRICE POLLER ─────────────────────────────────────────────
 def poll_prices():
