@@ -31,7 +31,7 @@ def add_cors(response):
     response.headers["Access-Control-Allow-Methods"] = "GET,POST,OPTIONS"
     return response
 CAPITAL = 500000
-TRADES_FILE = os.path.expanduser("~/Desktop/trading-bot/paper_trades.json")
+TRADES_FILE = os.getenv("TRADES_FILE", "/tmp/paper_trades.json")
 TOKEN   = os.getenv("TELEGRAM_BOT_TOKEN","")
 CHAT    = os.getenv("TELEGRAM_CHAT_ID","")
 
@@ -71,12 +71,22 @@ _btc_cache = {"df":None,"time":None}
 
 # ── HELPERS ──────────────────────────────────────────────────
 def load_trades():
-    if os.path.exists(TRADES_FILE):
-        with open(TRADES_FILE) as f: return json.load(f)
+    try:
+        if os.path.exists(TRADES_FILE):
+            with open(TRADES_FILE) as f:
+                return json.load(f)
+    except: pass
     return {"open":[],"closed":[],"equity":[{"date":str(datetime.now().date()),"value":CAPITAL}]}
 
 def save_trades(data):
-    with open(TRADES_FILE,"w") as f: json.dump(data,f,indent=2)
+    try:
+        os.makedirs(os.path.dirname(TRADES_FILE) if os.path.dirname(TRADES_FILE) else ".", exist_ok=True)
+        with open(TRADES_FILE,"w") as f:
+            json.dump(data,f,indent=2)
+    except Exception as e:
+        print(f"Save trades error: {e}")
+
+
 
 def bot_log(msg,level="INFO"):
     entry={"time":datetime.now().strftime("%d %b %H:%M:%S"),"msg":msg,"level":level}
