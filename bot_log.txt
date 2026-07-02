@@ -7029,3 +7029,1209 @@ $HG=F: possibly delisted; no price data found  (period=5d)
 
 1 Failed download:
 ['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+$HG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+$BZ=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BZ=F']: possibly delisted; no price data found  (period=5d)
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+$BZ=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BZ=F']: possibly delisted; no price data found  (period=5d)
+$CL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+$PL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: possibly delisted; no price data found  (period=5d)
+$BZ=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BZ=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+$SI=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+$PL=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['PL=F']: possibly delisted; no price data found  (period=5d)
+$BZ=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BZ=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['NG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['GC=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['BZ=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['CL=F']: OperationalError('unable to open database file')
+$NG=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['NG=F']: possibly delisted; no price data found  (period=5d)
+$GC=F: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['GC=F']: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['SI=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['HG=F']: OperationalError('unable to open database file')
+
+1 Failed download:
+['PL=F']: OperationalError('unable to open database file')
